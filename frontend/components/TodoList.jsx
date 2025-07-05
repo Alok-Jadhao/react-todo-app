@@ -5,7 +5,7 @@ function TodoList({ todos, onToggle, onDelete}) {
         <ul>
             {todos.map(todo => (
                 <TodoItem
-                    key={todo.id}
+                    key={todo._id}
                     todo={todo}
                     onToggle={onToggle}
                     onDelete={onDelete}

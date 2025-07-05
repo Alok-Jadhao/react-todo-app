@@ -6,7 +6,7 @@ export default function TodoItem({todo, onToggle, onDelete}) {
         <input
             type="checkbox"
             checked={todo.completed}
-            onChange={() => onToggle(todo.id)}
+            onChange={() => onToggle(todo._id)}
             style={{ marginRight: '10px' }}
         />
         <span
@@ -18,7 +18,7 @@ export default function TodoItem({todo, onToggle, onDelete}) {
             >
                 {todo.text}
             </span>
-            <button onClick={() => onDelete(todo.id)} style={{marginLeft: '10px' }}>
+            <button onClick={() => onDelete(todo._id)} style={{marginLeft: '10px' }}>
                 Delete
             </button>
     </li>
