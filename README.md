@@ -58,9 +58,8 @@ cd ../frontend
 npm install
 npm start
 ```
-- The frontend runs on [http://localhost:5173](http://localhost:5173) (or another port if 3000 is in use).
+- The frontend runs on [http://localhost:5173](http://localhost:5173).
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Project Structure
 
